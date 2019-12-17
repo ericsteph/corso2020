@@ -1,0 +1,148 @@
+---
+title: "Focus sul mercato del lavoro in Ticino"
+author: '*di Eric Stephani*'
+date: "Corso 2020 di statistica pubblica"
+output:
+  html_document:
+    highlight: tango
+    theme: united
+    toc: yes
+    toc_float: yes
+  prettydoc::html_pretty: default
+subtitle: L'intelleggìbile, il sensibile e la statistica
+---
+
+
+## Contenuti e organizzazione del corso {.tabset}
+
+### Contenuti del corso
+> Approfondire il tema delle transformazioni in atto sul mercato del lavoro col supporto della statistica pubblica diventa interessante, utile e, perché no… appassionante quando si conoscono meglio i prodotti a disposizione.  
+I prodotti messi a disposizione dalla statistica pubblica non sono solo **i dati** ma anche tutta una serie di informazioni complementari, cioè **i metadati**, come ad esempio: i metodi di raccolta, i metodi di trattamento dei dati per arrivare sino alle informazioni inerenti la frequenza e la cadenza della diffusione.  
+Per passare da una situazione di informazione passiva a una più attiva, occorre però acquisire o migliorare alcune competenze come: saper valutare e scegliere una buona statistica, distinguere i possibili approfondimenti e confronti che si possono sviluppare o ancora, semplicemente, riuscire a confrontare le proprie sensazioni ai dati.
+<br>
+
+### Corso singolo o percorso a modulo
+Il corso è pensato sia in maniera singola, cioè ogni incontro approfondirà in maniera indipendente una statistica o un prodotto statistico, sia in modalità di percorso formativo. In questa seconda veste, grazie all'accumulo delle nozioni apprese, ogni partecipante avrà poi la possibilità di mettere alla prova il proprio bagaglio statistico acquisito durante l’incontro conclusivo.
+
+### Contesto *disciplinare*
+L'ambito di approfondimento centrale e di riferimento al corso sarà la statistica pubblica; però durante gli incontri si approfondiranno anche temi di economia e in particolari temi come l'economia del lavoro, le transizioni di carriera o di politica economica.
+<br>
+
+## Struttura del corso e destinatari {.tabset}
+
+### Struttura del corso
+Il corso è organizzato su quattro incontri, di cui:
+
+-	Un incontro introduttivo (facoltativo)  
+-	Tre incontri di approfondimento, su una statistica o un prodotto statistico  
+-	Un incontro conclusivo (solo per i partecipanti che avranno seguito almeno due dei tre incontri “tematici”)
+
+> Gli incontri di approfondimento durano tre ore, l’incontro introduttivo e quello conclusivo due ore, per un totale di 13 ore di formazione. 
+
+**Orari**: 13.30 -  16:30 (incontri di approfondimento), 16:00 – 18:00 (incontro introduttivo e quello conclusivo)  
+**Periodo**: febbraio – ottobre 2020
+
+### Destinatari
+Nel 2019 il percorso formativo è stato offerto a consulenti esperti in sviluppo di carriera e formatori dell’associazione [*“Inserimento Svizzera Sezione Ticino”*](http://www.arbeitsintegrationschweiz.ch/regionalgruppen/tessin). Vista la buona esperienza si intende proporre questa offerta formativa ad altri professionisti interessati a leggere in maniera diversa le trasformazioni in atto sul mercato del lavoro.
+
+### Dove
+c/o Labor transfer, centro Ala, Via Monda 2b, 6528 Camorino
+
+
+## Date {.tabset}
+
+### Date e contenuti
+
+```{r echo=FALSE}
+library(knitr)
+library(kableExtra)
+
+text_tbl <- data.frame(
+  Data = c("6 febbraio", "20 febbraio", "12 marzo",
+           "14 maggio", "24 settembre"),
+  Descrizione = c("Introduzione alla statistica pubblica",
+                  "Statistica delle imprese (STATIMP), statistica sulle persone occupate (SPO) e statistica dei frontalieri (STAF)",
+                  "Rilevazione dei salari (RSS)",
+                  "Panorama statistico del mercato del lavoro",
+                  "Incontro conclusivo"),
+  Orario = c("16.00 - 18:00",
+             rep("13:30 - 16:30", times = 3),
+             "16:00 - 18:00"))
+
+kable(text_tbl) %>%
+  kable_styling(full_width = T) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em", background = "#F2F2F2", border_right = T)
+```
+
+### Giovedì 6 febbraio
+#### Introduzione alla statistica pubblica
+-	Ruolo dell’Ufficio di statistica  
+-	Usi dei prodotti di statistica pubblica  
+-	Futuro della statistica pubblica
+
+### Giovedì 20 febbraio
+#### Statistica delle imprese (STATIMP), statistica sulle persone occupate (SPO) e statistica dei frontalieri (STAF)
+-	Informazioni di base sulle statistiche  
+-	Potenzialità conosciute: numero di posti di lavoro per settore economico, persone occupate e frontalieri per categoria socio-demografica  
+-	Potenzialità meno conosciute: carenza di lavoro, come leggere i dati in maniera integrata  
+-	Lettura degli ultimi dati a disposizione
+
+### Giovedì 12 marzo
+#### Rilevazione dei salari (RSS)
+-	Informazioni di base sulla statistica  
+-	Potenzialità conosciute: salario mediano, confronto tra Ticino e Svizzera e lettura per categoria socio-demografica  
+-	Potenzialità meno conosciute: analisi per percentili, analisi per sottogruppi di popolazione, confronti a parità di caratteristiche  
+-	Lettura degli ultimi dati a disposizione
+
+### Giovedì 14 maggio
+#### Presentazione del prodotto: “Panorama statistico del mercato del lavoro”
+-	Informazioni di base sul prodotto  
+-	Senso del prodotto sintetico e possibili utilizzi  
+-	Possibilità di approfondimento e di “individualizzazione” del prodotto
+
+### Giovedì 24 settembre
+#### Incontro conclusivo
+
+
+## Obiettivi formativi {.tabset}
+
+### Obiettivi
+Al termine della formazione la/il partecipante sarà in grado di:  
+
+-	Situarsi rispetto ai prodotti messi a disposizione dagli uffici di statistica pubblica (cantonali, federali e internazionali).  
+-	Incuriosire alla ricerca non solo di dati ma anche di metadati  
+-	Distinguere le statistiche per categoria  
+-	Identificare le fasi di lavoro per poter approfondire un tema d’attualità con l’ausilio della statistica pubblica  
+-	Riuscire a confrontare i dati statistici con la propria esperienza o con le proprie sensazioni
+
+### Metodologia di lavoro
+La formazione proposta alterna momenti di presentazione frontale a momenti di esercitazione comune, sia in forma plenaria che in sottogruppo. Un’attenzione particolare sarà rivolta all’esperienza e agli interrogativi delle/dei partecipanti.  
+Appena possibile si farà riferimento a casi d’attualità dai notiziari statistici o dai quotidiani (regionali o nazionali).
+
+
+## Iscrizione e costi {.tabset}
+Per le iscrizioni vi preghiamo di inviare una e-mail a: eric.stephani@ti.ch  
+
+### Costi
+Costo per partecipante:  
+
+-	Modulo intero: 250.-  
+-	Corso singolo: 70.-
+
+Il corso prenderà avvio con un minimo di 8 iscritti all’intero modulo di formazione. Ogni corso singolo avrà un massimo di 16 partecipanti.
+
+### Termine d'iscrizione
+Le iscrizioni devono pervenire entro mercoledì 29 gennaio 2020.
+
+
+## Chi sono {.tabset}
+
+> Eric Stephani, licenziato in scienze economiche e sociali all’Università di Friburgo, dal 2008 lavoro in seno all’Ufficio di statistica in qualità di collaboratore scientifico e mi occupo di economia del mercato del lavoro, analisi della struttura economica e di congiuntura. Nel 2017 ho iniziato la formazione quale formatore per adulti e collaboro, in qualità di formatore, con l’associazione “Inserimento svizzera” e con l’Istituto universitario federale per la formazione professionale (IUFFP). 
+
+### Contatti
+Eric Stephani  
+*Collaboratore scientifico*  
+Tel. + 41 91 814 50 35  
+[eric.stephani@ti.ch](eric.stephani@ti.ch)
+
