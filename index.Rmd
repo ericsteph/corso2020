@@ -49,9 +49,9 @@ Nel 2019 il percorso formativo è stato offerto a consulenti esperti in sviluppo
 c/o Labor transfer, centro Ala, Via Monda 2b, 6528 Camorino
 
 
-## Date {.tabset}
+## Date e contenuti {.tabset}
 
-### Date e contenuti
+### Calendario
 
 ```{r echo=FALSE}
 library(knitr)
@@ -122,7 +122,8 @@ Appena possibile si farà riferimento a casi d’attualità dai notiziari statis
 
 
 ## Iscrizione e costi {.tabset}
-Per le iscrizioni vi preghiamo di inviare una e-mail a: eric.stephani@ti.ch  
+Per le iscrizioni vi preghiamo di inviare una e-mail a:  
+[**eric.stephani@ti.ch**](eric.stephani@ti.ch)  
 
 ### Costi
 Costo per partecipante:  
@@ -138,12 +139,14 @@ Le iscrizioni devono pervenire entro mercoledì 29 gennaio 2020.
 
 ## Informazioni complementari {.tabset}
 
-### Chi sono
-> Eric Stephani, licenziato in scienze economiche e sociali all’Università di Friburgo, dal 2008 lavoro in seno all’Ufficio di statistica in qualità di collaboratore scientifico e mi occupo di economia del mercato del lavoro, analisi della struttura economica e di congiuntura. Nel 2017 ho iniziato la formazione quale formatore per adulti e collaboro, in qualità di formatore, con l’associazione “Inserimento svizzera” e con l’Istituto universitario federale per la formazione professionale (IUFFP). 
-
 ### Contatti
 Eric Stephani  
 *Collaboratore scientifico*  
+Ufficio di statistica
 Tel. + 41 91 814 50 35  
 [eric.stephani@ti.ch](eric.stephani@ti.ch)
+
+### Chi sono
+> Eric Stephani, licenziato in scienze economiche e sociali all’Università di Friburgo, dal 2008 lavoro in seno all’Ufficio di statistica in qualità di collaboratore scientifico e mi occupo di economia del mercato del lavoro, analisi della struttura economica e di congiuntura. Nel 2017 ho iniziato la formazione quale formatore per adulti e collaboro, in qualità di formatore, con l’associazione “Inserimento svizzera” e con l’Istituto universitario federale per la formazione professionale (IUFFP). 
+
 
